@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-"""Umbea"""
+"""No C or c"""
+
 
 def no_c(my_string):
     """
     What i do
     """
-    newstr=""
+    newstr = ""
     for i in my_string:
         if i not in "cC":
             newstr += i
