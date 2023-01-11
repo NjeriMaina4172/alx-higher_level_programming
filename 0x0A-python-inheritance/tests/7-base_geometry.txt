@@ -1,0 +1,25 @@
+How to Use 7-base_geometry.py
+=============================
+
+This modules defines a base geometry class BaseGeometry.
+
+Instantiation
+=============
+
+``BaseGeometry`` includes no attributes, and accordingly is initialized 
+with no arguments.
+
+::
+
+    >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+    >>> bg = BaseGeometry()
+    >>> type(bg)
+    <class '7-base_geometry.BaseGeometry'>
+
+::
+
+    >>> print(bg) # doctest: +ELLIPSIS
+    <7-base_geometry.BaseGeometry object at ...>
+
+In fact, any arguments supplied to an instantiation of ``BaseGeometry`` results
+in a TypeError.
